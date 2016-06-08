@@ -9,7 +9,7 @@ using GCVAPISample;
 public class GoogleCloudVisionAPISample : MonoBehaviour
 {
 	[SerializeField] string API_KEY =
-		"AIzaSyAG6C3bO8lz4Ce41jOhr3ylre95N5avPH4";
+		"";
 	[SerializeField] string API_ENDPOINT =
 		"https://vision.googleapis.com/v1/images:annotate?key=";
 
