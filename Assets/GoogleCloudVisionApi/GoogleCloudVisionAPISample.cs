@@ -46,8 +46,6 @@ public class GoogleCloudVisionAPISample : MonoBehaviour
 		// Create a Request Json
 		GCVAPISample.Image image = new GCVAPISample.Image(_texture);
 		List<Feature> features = new List<Feature>();
-//		Feature feature = new Feature (FeatureType.TEXT_DETECTION, 5); // error from api server?
-//		features.Add (feature);
 		foreach (FeatureType _featureType in Enum.GetValues(typeof(FeatureType))) {
 			Feature feature = new Feature (_featureType, 3);
 			features.Add (feature);
